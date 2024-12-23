@@ -1,0 +1,38 @@
+.label
+{
+	-fx-font-size:60px;
+	-fx-text-fill:white;
+	-fx-alignment:center;
+}
+.anchor-pane{
+	-fx-background-color:#03c6fc;
+}
+
+.progress-bar {
+    -fx-background-color: white; /* Background color */ /* Border color */
+    -fx-border-radius: 10; /* Rounded corners */
+    -fx-border-width: 0; /* Border width */
+    -fx-pref-height: 10; /* Height of the progress bar */
+    -fx-pref-width: 200; /* Width of the progress bar */
+    -fx-progress-color: #4CAF50; /* Color of the progress portion */
+    -fx-background-insets: 2; /* Insets for background */
+    -fx-background-radius: 10; /* Rounded background corners */
+}
+
+.add{
+	-fx-background-color:#269cbd;
+	-fx-text-fill:white;
+}
+.round-button {
+    -fx-background-color: red; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 10px; /* Text size */
+    -fx-border-color: darkred; /* Darker green border */
+    -fx-border-width: 2px; /* Border width */
+    -fx-background-radius: 50%; /* Round shape */
+    -fx-border-radius: 50%; /* Rounded border */
+    -fx-min-width: 50px; /* Width of the button */
+    -fx-min-height: 50px; /* Height of the button */
+    -fx-pref-width: 50px; /* Preferred width */
+    -fx-pref-height: 50px; /* Preferred height */
+}
